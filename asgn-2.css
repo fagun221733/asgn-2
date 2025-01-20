@@ -72,3 +72,50 @@
   }
 
   /* banner section */
+
+  .hero{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px;
+background-color:#ffffff ;
+
+
+  }
+  .hero-text{
+
+  }
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #f7931e;
+  font-weight: bold;
+  }
+  .hero-text .highlight{
+    color: #333;
+    font-weight: bold;
+  }
+
+  .hero-text .blue-highlight{
+color: #29b6f6;
+font-weight: bold;
+  }
+  .hero-text .subtext {
+margin-top: 20px;
+font-size: 18px;
+color: #666;
+  }
+  .cta-button {
+margin-top: 20px;
+padding: 12px 24px;
+font-size: 16px;
+font-weight: bold;
+color: #ffffff;
+background-color: #000;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+  }
+  .cta-button:hover{
+background-color: #00acc1;
+  }
