@@ -1,0 +1,74 @@
+/* navigation-bar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f7931e; /* Home: Orange */
+    transition: color 0.3s;
+  }
+  
+  .nav-link:nth-child(2) {
+    color: #29b6f6; /* About: Light Blue */
+  }
+  
+  .nav-link:nth-child(3) {
+    color: #00acc1; /* Facilities: Aqua */
+  }
+  
+  .nav-link:nth-child(4) {
+    color: #673ab7; /* Admission: Purple */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    background-color: #f7931e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #e67e22;
+  }
+
+  /* banner section */
